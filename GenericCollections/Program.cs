@@ -55,10 +55,16 @@ namespace GenericCollections
 
 
             // List
+            // GOOD - dynamic in size
+            // GOOD - no boxing/unboxing - better performance
+            // GOOD - type safe
+
             List<int> myList = new List<int>();
             myList.Add(10);
             myList.Add(20);
             myList.Add(30);
+
+            //myList.Add("hello");
 
             sum = 0;
 
