@@ -32,6 +32,29 @@
                 Console.WriteLine("Item exists");
             else
                 Console.WriteLine("Item doesn't exist");
+
+
+            // Contains
+            if (employees.Contains(emp3))
+                Console.WriteLine("Item exists");
+            else
+                Console.WriteLine("Item doesn't exist");
+
+
+            // Exists
+            if (employees.Exists(e => e.Name.StartsWith("A")))
+                Console.WriteLine("Item exists");
+            else
+                Console.WriteLine("Item doesn't exist");
+
+
+            // Find
+            var em = employees.Find(e => e.Salary > 6000);
+
+            if (em != null)
+                Console.WriteLine(em);
+            else
+                Console.WriteLine("Item doesn't exist");
         }
     }
 }
