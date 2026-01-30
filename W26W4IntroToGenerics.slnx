@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="DictionaryExample/DictionaryExample.csproj" Id="f02a9950-f9e0-4a5b-8167-9c5ed9d3ecfd" />
   <Project Path="GenericCollections/GenericCollections.csproj" />
   <Project Path="ListExercise/ListExercise.csproj" />
   <Project Path="W26W4IntroToGenerics/W26W4IntroToGenerics.csproj" />
